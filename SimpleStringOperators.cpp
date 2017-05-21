@@ -1,11 +1,6 @@
-// read first and last name
-#include "std_lib_facilities.h"
-int main()
-{
-	cout << "Please enter your first and last name\n";
-	string first;
-	string last;
-	cin >> first >> last; //read two strings
-	string name =  first + " " + last; // concatenate strings
-	cout << "Hello, " << name << "\n";
-}
+-*- mode: compilation; default-directory: "~/Development/Desktop/C++/CPP-Learning/" -*-
+Compilation started at Sat Apr  1 16:13:36
+
+c++ -g -o convertValues convertValues.cpp
+
+Compilation finished at Sat Apr  1 16:13:36
